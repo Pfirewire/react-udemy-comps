@@ -1,9 +1,23 @@
-
+import Button from "./components/Button";
 
 function App() {
     return(
         <div>
-            App
+            <div>
+                <Button />
+            </div>
+            <div>
+                <Button />
+            </div>
+            <div>
+                <Button />
+            </div>
+            <div>
+                <Button />
+            </div>
+            <div>
+                <Button />
+            </div>
         </div>
     );
 }
