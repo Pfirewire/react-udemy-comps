@@ -16,7 +16,7 @@ function App() {
                 <Button secondary outline>Four</Button>
             </div>
             <div>
-                <Button secondary rounded>Five</Button>
+                <Button primary rounded>Five</Button>
             </div>
         </div>
     );
