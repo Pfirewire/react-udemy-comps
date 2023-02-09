@@ -1,10 +1,14 @@
 import Button from "./components/Button";
+import { GoBell } from "react-icons/go";
 
 function App() {
     return(
         <div>
             <div>
-                <Button success rounded outline>One</Button>
+                <Button success rounded outline>
+                    <GoBell />
+                    One
+                </Button>
             </div>
             <div>
                 <Button danger outline>Two</Button>
