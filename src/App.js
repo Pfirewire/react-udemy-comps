@@ -14,7 +14,7 @@ function App() {
                 <Button danger outline>Two</Button>
             </div>
             <div>
-                <Button warning>Three</Button>
+                <Button className="text-black" warning>Three</Button>
             </div>
             <div>
                 <Button secondary outline>Four</Button>
