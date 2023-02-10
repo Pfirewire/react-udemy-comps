@@ -14,7 +14,7 @@ function ButtonPage() {
                 <Button danger outline>Button Two</Button>
             </div>
             <div>
-                <Button className="text-slate-500" warning>Button Three</Button>
+                <Button warning outline>Button Three</Button>
             </div>
             <div>
                 <Button secondary outline>Button Four</Button>
