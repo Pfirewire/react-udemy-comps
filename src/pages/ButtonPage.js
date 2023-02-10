@@ -7,20 +7,20 @@ function ButtonPage() {
             <div>
                 <Button success rounded outline>
                     <GoBell />
-                    One
+                    Button One
                 </Button>
             </div>
             <div>
-                <Button danger outline>Two</Button>
+                <Button danger outline>Button Two</Button>
             </div>
             <div>
-                <Button className="text-black" warning>Three</Button>
+                <Button className="text-slate-500" warning>Button Three</Button>
             </div>
             <div>
-                <Button secondary outline>Four</Button>
+                <Button secondary outline>Button Four</Button>
             </div>
             <div>
-                <Button primary rounded>Five</Button>
+                <Button primary rounded>Button Five</Button>
             </div>
         </div>
     );

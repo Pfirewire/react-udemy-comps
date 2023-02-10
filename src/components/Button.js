@@ -12,7 +12,7 @@ function Button({
                     ...rest
                 }) {
 
-    const classes = className(rest.className, 'flex items-center px-3 py-1.5 border', {
+    const classes = className('flex items-center px-3 py-1.5 border', {
         'border-blue-500 bg-blue-500': primary,
         'border-gray-900 bg-gray-900': secondary,
         'border-green-500 bg-green-500': success,
@@ -26,7 +26,7 @@ function Button({
         'text-green-500': outline && success,
         'text-yellow-600': outline && warning,
         'text-red-500': outline && danger,
-    });
+    }, rest.className);
     return(
         <button {...rest} className={classes}>{children}</button>
     );
