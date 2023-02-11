@@ -5,22 +5,30 @@ function ButtonPage() {
     return(
         <div>
             <div>
-                <Button success rounded outline>
+                <Button success rounded>
                     <GoBell />
                     Button One
                 </Button>
             </div>
             <div>
-                <Button danger outline>Button Two</Button>
+                <Button danger outline>
+                    Button Two
+                </Button>
             </div>
             <div>
-                <Button warning outline>Button Three</Button>
+                <Button warning>
+                    Button Three
+                </Button>
             </div>
             <div>
-                <Button secondary outline>Button Four</Button>
+                <Button secondary outline>
+                    Button Four
+                </Button>
             </div>
             <div>
-                <Button primary rounded>Button Five</Button>
+                <Button primary rounded>
+                    Button Five
+                </Button>
             </div>
         </div>
     );
