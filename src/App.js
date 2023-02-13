@@ -1,14 +1,9 @@
-import AccordionPage from "./pages/AccordionPage";
-import ButtonPage from "./pages/ButtonPage";
-import DropdownPage from "./pages/DropdownPage";
+import Link from './components/Link';
 
 
 function App() {
     return(
         <div>
-            <AccordionPage />
-            <ButtonPage />
-            <DropdownPage />
         </div>
     );
 }
