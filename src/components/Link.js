@@ -1,10 +1,12 @@
 
 
-function Link({ to }) {
+function Link({ children, to }) {
     const handleClick = (e) => {
         e.preventDefault();
 
     };
 
-    return <a onClick={handleClick} href={to}></a>
+    return <a onClick={handleClick} href={to}>{children}</a>
 }
+
+export default Link;
