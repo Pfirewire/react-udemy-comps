@@ -7,14 +7,12 @@ function Table({ data, config }) {
         );
     });
 
-    const renderedRows = data.map((fruit) => {
+    const renderedRows = data.map((data) => {
         return(
-            <tr className='border-b' key={fruit.name}>
-                <td className='p-3'>{fruit.name}</td>
-                <td className='p-3'>
-                    <div className={`p-3 m-2 ${fruit.color}`}></div>
-                </td>
-                <td className='p-3'>{fruit.score}</td>
+            <tr className='border-b' key={data.name}>
+                <td className='p-3'>{config[0].render(data)}</td>
+                <td className='p-3'>{config[1].render(data)}</td>
+                <td className='p-3'>{config[2].render(data)}</td>
             </tr>
         );
     });
