@@ -8,11 +8,14 @@ function Table({ data, config }) {
     });
 
     const renderedRows = data.map((data) => {
+        const renderedCells = config.map((column) => {
+            return(
+                <td className='p-2' key={column.label}>{column.render(data)}</td>
+            );
+        });
         return(
             <tr className='border-b' key={data.name}>
-                <td className='p-3'>{config[0].render(data)}</td>
-                <td className='p-3'>{config[1].render(data)}</td>
-                <td className='p-3'>{config[2].render(data)}</td>
+                {renderedCells}
             </tr>
         );
     });
